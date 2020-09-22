@@ -1,6 +1,0 @@
-#!/usr/bin/bash
-s=`cat ~/.mario_pix`
-
-python3 << EOF
-print('''${s}'''.replace("r", "\033[31;41m  \033[0m").replace("g", "\033[32;42m  \033[m").replace("y", "\033[33;43m  \033[0m"))
-EOF
